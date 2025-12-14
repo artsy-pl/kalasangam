@@ -7,5 +7,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate") // Optional, adds animation utilities if you install the plugin, otherwise safe to remove if standard animate-in classes work native
+  ],
 }
